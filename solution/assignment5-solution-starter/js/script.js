@@ -123,8 +123,8 @@ function buildAndShowHomeHTML (categories) {
       // of how to do that.
       // ....
      
-     //insertHtml("#main-content",homeHtmlToInsertIntoMainPage);
-      document.querySelector("#main-content")
+     insertHtml("#main-content",homeHtmlToInsertIntoMainPage);
+      //document.querySelector("#main-content")
        .innerHtml = homeHtml;
      
     },
